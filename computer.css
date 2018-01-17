@@ -1,0 +1,29 @@
+	main {
+		flex-direction: row;
+		max-width: 1000px;
+		min-height: calc(100% - 100px);
+	}
+
+	.logo {
+		display: inline-block;
+		margin-right: auto;
+	}
+
+	.tribar {
+		display: none;
+	}
+
+	aside {
+		display: flex !important;
+		position: inherit;
+		margin: 0;
+		flex-direction: column;
+	}
+
+	footer {
+		height: 93px;
+	}
+
+	.popupFade {
+		display: none !important;
+	}
